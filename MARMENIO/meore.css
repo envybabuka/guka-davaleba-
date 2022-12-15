@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none !important;
+
+}
+html,body{
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    min-height: 100vh;
+    background:url(/meore.svg/header.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 100%;
+}
+
+@media (max-width:843px){
+.orivepatara{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+}
+@media screen and (max-width: 600px) {
+  .marmenio h1{
+    font-size: 40px !important;
+  }
+
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none !important;
+  }
+
+  .cyf-mtliani{
+    margin-left: 0px !important;
+  }
+  .patara{
+    display: none !important;
+  }
+  .patara-2{
+    min-width:360px;
+  }
+  
+  }
+
+.orivepatara{
+    display: flex;
+    justify-content:space-between;
+
+}
+.patara{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.patara-2{
+    margin-right: 121px;
+    display: flex;
+    margin-top: 20px;
+}
+@media(max-width:500px){
+    .patara-2{
+        justify-content: center;
+    }
+    .cyf-mtliani{
+        margin-left: 30px !important;
+    }
+}
+.w-20{
+    max-width: 1px;
+    min-height: 20px;
+    background: black;
+}
+.orivepatara a{
+    padding-left: 10px;
+    color: black;
+    transition: 0.5s;
+}
+.patara-2 div{
+    margin-left: 10px;
+    color: black;
+}
+.orivepatara a:hover{
+    color: rgba(158, 87, 121, 1);
+}
+.marmenio h1{
+    font-family: 'Cinzel';
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 107px;
+    color: black;
+
+}
+.marmenio{
+    text-align: center;
+    margin-top:80px;
+    max-width: 2000px;
+}
+@media (max-width:309px){
+    .navigacia{
+        /* flex-direction: column; */
+    }
+    .navigacia a{
+        padding-bottom: 20px;
+        padding-right: 39px;
+    }
+    .wertilebi{
+        display: none;
+    }
+
+
+}
+.navigacia li{
+    padding-right: 40px;
+}
+.navigacia a{
+    color: black;
+    transition: 0.7s;
+    font-weight: 700;
+}
+.navigacia a:hover{
+    color: rgb(255, 38, 212);
+    /* background-color:rgba(158, 87, 121, 1); */
+    color: rgba(158, 87, 121, 1);
+    border-radius: 50%;
+}
+
+.mcm{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width:500px){
+    .mcm{
+        margin-top:104px;
+        margin-left:120px;
+    }
+
+}
+.texti10{
+    min-height: 111px;
+    max-width: 411px;
+
+}
+.texti10 h1{
+    font-family: Inter;
+font-size: 47px;
+font-weight: 600;
+line-height: 57px;
+letter-spacing: 0em;
+
+
+}
